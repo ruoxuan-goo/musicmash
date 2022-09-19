@@ -11,7 +11,7 @@ export default function TopTracks(props) {
             <iframe
               src={"https://www.youtube.com/embed/" + track.id}
               title={track.id}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
             <h4>{track.trackname}</h4>
