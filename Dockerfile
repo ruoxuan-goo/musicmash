@@ -23,4 +23,4 @@ RUN npm install
 EXPOSE 3000
 
 # start command as per package.json
-CMD ["npm", "start"]
+CMD ["node", "index.js"]

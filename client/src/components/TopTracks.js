@@ -8,12 +8,16 @@ export default function TopTracks(props) {
       <div className="topvideos">
         {props.tracks.map((track) => (
           <div className="video">
-            <iframe src={track.id}></iframe>
+            <iframe
+              src={"https://www.youtube.com/embed/" + track.id}
+              title={track.id}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <h4>{track.trackname}</h4>
             <div className="info">
               <p className="rating">{track.rating}</p>
               <p>Album {track.album}</p>
-              {/* <p>{track.genre}</p> */}
             </div>
           </div>
         ))}

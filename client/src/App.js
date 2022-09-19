@@ -27,7 +27,7 @@ function App() {
 
   // fetch from server
   async function fetchData() {
-    const url = `http://localhost:3000/search/${query}`;
+    const url = `/search/${query}`;
 
     let res = await fetch(url);
     let data = await res.json();

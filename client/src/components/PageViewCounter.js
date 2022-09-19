@@ -8,7 +8,7 @@ export default function PageViewCounter() {
   function fetchVisitor() {
     const config = {
       method: "POST",
-      url: "http://localhost:3000/visitorcount",
+      url: "/visitorcount",
     };
 
     axios

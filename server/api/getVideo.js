@@ -22,10 +22,11 @@ async function getVideo(artist, trackname) {
   await axios
     .get(url)
     .then((res) => {
+      console.log(res.data.items[0]);
       return res.data.items[0].id.videoId;
     })
     .then((resid) => {
-      id = "https://www.youtube.com/embed/" + resid;
+      id = resid;
     })
     .catch((err) => {
       console.log(err);
