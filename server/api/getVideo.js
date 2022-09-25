@@ -10,7 +10,8 @@ async function getVideo(artist, trackname) {
   //AIzaSyB1ipndMMWpWQRbJmrif4uZox5M03M0gcI
   //AIzaSyABlcbnckcB5IVG54WTI0gvfrwgZE6bz3k
   const param = {
-    api_KEY: process.env.YOUTUBEAPI,
+    api_KEY:
+      "AIzaSyBDA5CrKW6LrtmAgfuWncjC8G82hZnmZeQ" || process.env.YOUTUBEAPI,
     maxResult: 1,
   };
 
@@ -22,7 +23,6 @@ async function getVideo(artist, trackname) {
   await axios
     .get(url)
     .then((res) => {
-      console.log(res.data.items[0]);
       return res.data.items[0].id.videoId;
     })
     .then((resid) => {

@@ -1,8 +1,8 @@
-const path = require("path");
-const express = require("express");
-const cors = require("cors");
-const cookieParser = require("cookie-parser");
-const { getItem, updateItem } = require("./dynamo/dynamo");
+var path = require("path");
+var express = require("express");
+var cors = require("cors");
+var cookieParser = require("cookie-parser");
+var { getItem, updateItem } = require("./dynamo/dynamo");
 const musicRouter = require("./routes/music");
 
 const app = express();
