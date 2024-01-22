@@ -2,15 +2,19 @@
 
 MusicMash is a cutting-edge single-page web application featuring a server-side mash-up experience. Users can query a track name to access comprehensive information, including ratings, genre, album details, artist biography, recent tweets, and top five hits with videos, presented through a modern interface. Targeted at music enthusiasts, the application consolidates data from various sources, enriching the user's music exploration.
 
-Powered by DynamoDB for tracking page visits, MusicMash is deployed in a Docker container on an Amazon EC2 instance for universal accessibility beyond the local host. 
+MusicMash is deployed in a Docker container on an Amazon EC2 instance for universal accessibility beyond the local host. 
 
 ## Services Used 
 
-### APIs
 MusixMatch API [docs](https://developer.musixmatch.com/documentation/api-reference/track-search)
+
 YouTube API [docs](https://youtube.googleapis.com/youtube/v3/search)
+
 Twitter API [docs](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent)
+
 WikipediaAPI [docs](https://wikimedia.org/api/rest_v1/)
+
+Node image [link](https://hub.docker.com/_/node)
 
 ## Solution Architecture 
 
