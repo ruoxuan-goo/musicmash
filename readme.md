@@ -9,8 +9,7 @@ Powered by DynamoDB for tracking page visits, MusicMash is deployed in a Docker 
 ### APIs
 MusixMatch API [docs](https://developer.musixmatch.com/documentation/api-reference/track-search)
 YouTube API [docs](https://youtube.googleapis.com/youtube/v3/search)
-Twitter API [docs](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-
-search-recent)
+Twitter API [docs](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent)
 WikipediaAPI [docs](https://wikimedia.org/api/rest_v1/)
 
 ## Solution Architecture 
