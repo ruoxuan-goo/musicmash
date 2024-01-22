@@ -4,6 +4,15 @@ MusicMash is a cutting-edge single-page web application featuring a server-side 
 
 Powered by DynamoDB for tracking page visits, MusicMash is deployed in a Docker container on an Amazon EC2 instance for universal accessibility beyond the local host. 
 
+## Services Used 
+
+### APIs
+MusixMatch API [docs](https://developer.musixmatch.com/documentation/api-reference/track-search)
+YouTube API [docs](https://youtube.googleapis.com/youtube/v3/search)
+Twitter API [docs](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-
+search-recent)
+WikipediaAPI [docs](https://wikimedia.org/api/rest_v1/)
+
 ## Solution Architecture 
 
 ### Client
@@ -13,7 +22,7 @@ The client directory was created using [Create React App](https://reactjs.org/do
 The server directory was created by following the Express [Hello World Example](https://expressjs.com/en/starter/hello-world.html) and static assets are served following the Express [Serving Static Files Example](https://expressjs.com/en/starter/static-files.html). 
 
 
-### Getting Started
+## Getting Started
 ``` bash
 # Build your client application first
 cd client
